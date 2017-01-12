@@ -8,6 +8,25 @@ public class Driver {
         Storage<BankAccount>  aStorage = new Storage<>();
         Storage<String>       sStorage = new Storage<>();
 
+        Class<BankAccount> baCls = BankAccount.class;
+
+        try {
+            //casting like this is known as dynamic casting and is performed by the JVM
+            BankAccount myAccount =  (BankAccount) baCls.newInstance();
+            aStorage.setValue(myAccount);
+
+            // Deposit
+            myAccount.deposit(15);
+        }
+
+        catch ( InstantiationException e ) {
+            // ...
+        }
+
+        catch ( IllegalAccessException e ) {
+        // ...
+        }
+
     }
 
 }
