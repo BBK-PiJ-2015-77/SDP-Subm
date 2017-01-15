@@ -26,8 +26,19 @@ public class Driver {
         }
 
         catch ( IllegalAccessException e ) {
-        // ...
+            // ...
         }
+
+        System.out.println( aStorage.getValue().showBalance() );
+
+        if( aStorage.getClass() == sStorage.getClass() ) {
+            System.out.println( "EQUAL" );
+        } else {
+            System.out.println( "NOT EQUAL" );
+        }
+
+
+
 
     }
 
