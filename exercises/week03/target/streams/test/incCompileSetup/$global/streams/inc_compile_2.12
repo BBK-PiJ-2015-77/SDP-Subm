@@ -1,0 +1,332 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.1
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+7 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/basics/PublicScalaBasicsSuite.class
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$.class
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$IfExprTraverser.class
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$MethodCallTraverser.class
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$MethodTraverser.class
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$ValTraverser.class
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals.class
+binary dependencies:
+9 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> /Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> /Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> /Users/thomasmcgarry/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> /Users/thomasmcgarry/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.1.jar
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.1.jar
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> /Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+1 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> /Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala
+member reference external dependencies:
+1 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> basics.ScalaBasics$
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+7 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> basics.PublicScalaBasicsSuite
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> support.TreeTraversals
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> support.TreeTraversals$
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> support.TreeTraversals$IfExprTraverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> support.TreeTraversals$MethodCallTraverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> support.TreeTraversals$MethodTraverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> support.TreeTraversals$ValTraverser
+used names:
+209 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> $org_scalatest_assert_macro_expr
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> $org_scalatest_assert_macro_left
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> $org_scalatest_assert_macro_right
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> %
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> +
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> -
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> <init>
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> ==
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> >
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> Array
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> BigInt
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> Bool
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> ClassTag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> FunSuite
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> None
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> Position
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> Predef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> Prettifier
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> PublicScalaBasicsSuite
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> Random
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> ScalaBasics
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> String
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> StringContext
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> TreeTraversals
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> _1
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> _2
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> a
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> add
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> apply
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> asInstanceOf
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> assert
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> assertionsHelper
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> b
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> base36
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> basics
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> binaryMacroBool
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> check
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> default
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> doesNotHaveIfs
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> fail
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> foreach
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> getMethod
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> hasForComp
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> hasForEach
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> hasIfs
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> hasLoops
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> hasValDef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> hasVarDef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> hasWhileLoop
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> head
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> here
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> i
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> inRange
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> intWrapper
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> isInstanceOf
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> isPalindrome
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> j
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> l
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> last
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> length
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> lengthSizeMacroBool
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> ls
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> macroAssert
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> materializeClassTag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> method
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> minFor
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> minRecursive
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> minWhile
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> n
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> ne
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> nextInt
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> notBool
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> oddRange
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> org
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> p
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> package
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> pp
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> r
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> refArrayOps
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> reflect
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> rs
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> s
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> scala
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> scalactic
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> scalatest
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> simpleMacroBool
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> source
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> splitInHalf
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> support
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> test
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> to
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> unary_!
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> unchecked
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> util
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> v
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> value
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> withFilter
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> !=
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> &&
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ::
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> <init>
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ==
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> AnyRef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Boolean
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Codec
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> DefDef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> DefDefTag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Flag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> If
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> IfExprTraverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> IfTag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> LabelDef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> LabelDefTag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> List
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> MUTABLE
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> MethodCallTraverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> MethodTraverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Nil
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Option
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> PARAM
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Predef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Select
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> SelectTag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Source
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> String
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> TermName
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> TermNameTag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ToolBox
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Traverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Tree
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> TreeTraversals
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> Unit
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ValDef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ValDefTag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ValTraverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> _1
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> _2
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> asTree
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> augmentString
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> calls
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> calls_=
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> canBuildFrom
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> collection
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> defdefs
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> defdefs_=
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> exists
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> fallbackSystemCodec
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> file
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> find
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> fromFile
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> get
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getClass
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getClassLoader
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getIfs
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getLines
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getMethod
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getMethods
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getTerms
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getVals
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> getVars
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> hasFlag
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> hasForComp
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> hasForEach
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> hasWhileLoop
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ifs
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ifs_=
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> immutable
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> io
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> isEmpty
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> map
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> matches
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> mkString
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> mkToolBox
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> mods
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> n
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> name
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> ne
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> nonEmpty
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> package
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> parse
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> qual$1
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> r
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> reflect
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> regexp
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> replaceAllIn
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> runtime
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> runtimeMirror
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> s
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> scala
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> showRaw
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> size
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> source
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> support
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> toolbox
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> tools
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> traverse
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> traverser
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> tree
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> unapply
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> unary_!
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> unchecked
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> universe
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> valdef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> valdefs
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> valdefs_=
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> vardef
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> withFilter
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> x$8
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> x$9
+product stamps:
+7 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/basics/PublicScalaBasicsSuite.class -> lastModified(1486306840000)
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$.class -> lastModified(1486229952000)
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$IfExprTraverser.class -> lastModified(1486229952000)
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$MethodCallTraverser.class -> lastModified(1486229952000)
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$MethodTraverser.class -> lastModified(1486229952000)
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals$ValTraverser.class -> lastModified(1486229952000)
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/target/scala-2.12/test-classes/support/TreeTraversals.class -> lastModified(1486229952000)
+source stamps:
+2 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> hash(a16d487e67b285618bef6edb118d410a555e04b7)
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> hash(48f8650e9d67caa7bf80e18083dc1fb5bd5ed0ee)
+binary stamps:
+6 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1428689516000)
+/Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.1.jar -> lastModified(1480936238000)
+/Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> lastModified(1480936165000)
+/Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar -> lastModified(1480935977000)
+/Users/thomasmcgarry/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar -> lastModified(1478757013000)
+/Users/thomasmcgarry/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.1.jar -> lastModified(1478757171000)
+class names:
+6 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.String
+/Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.1.jar -> scala.tools.reflect.ToolBoxFactory
+/Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> scala.math.BigInt$
+/Users/thomasmcgarry/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar -> scala.reflect.api.Trees
+/Users/thomasmcgarry/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar -> org.scalactic.Bool$
+/Users/thomasmcgarry/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.1.jar -> org.scalatest.FunSuite
+internal apis:
+2 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4gVYSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw0ZgebXQAFXVuY29uc3RyYWluZWRFcXVhbGl0eXNxAH4AC2t/cAd0ABJjb252ZXJ0VG9FcXVhbGl6ZXJ1cQB+AAkAAABjc3EAfgALdV06pXQABmFzc2VydHNxAH4AC99rNMB0AAdzdWNjZWVkc3EAfgALvNG6SXQABm5vdGlmeXNxAH4AC+oPWxh0ACZsb3dQcmlvcml0eUNvbnZlcnNpb25DaGVja2VkQ29uc3RyYWludHNxAH4ACxh5n3V0ABBBc3NlcnRpb25zSGVscGVyc3EAfgALGkhRenQABmNhbmNlbHNxAH4AC231OiN0AAR0ZXN0c3EAfgALNWsddHQAEWV4ZWN1dGUkZGVmYXVsdCQyc3EAfgALxR8KHnQACWludGVyY2VwdHNxAH4AC8P+W7J0AARmYWlsc3EAfgALzAmnzXQABG5hbWVzcQB+AAsPnR7zdAAUYXNzZXJ0RG9lc05vdENvbXBpbGVzcQB+AAuztcsbdAARZXhlY3V0ZSRkZWZhdWx0JDRzcQB+AAtIhOsrdAAHZXhlY3V0ZXNxAH4AC51t1FZ0AAR3YWl0c3EAfgALIiblFHQAC3Rlc3REYXRhRm9yc3EAfgALml3rK3QAE2NyZWF0ZUNhdGNoUmVwb3J0ZXJzcQB+AAsz2xTNdAAJc3R5bGVOYW1lc3EAfgALicqsw3QADSRhc0luc3RhbmNlT2ZzcQB+AAsw/8OPdAARZXhlY3V0ZSRkZWZhdWx0JDNzcQB+AAtC6dFEdAAJY29uZmlnTWFwc3EAfgALbls6IXQABmVxdWFsc3NxAH4AC9FYuSl0ACxjb252ZXJ0RXF1aXZhbGVuY2VUb0FUb0JDb252ZXJzaW9uQ29uc3RyYWludHNxAH4AC/lx4pR0AA9kZWZhdWx0RXF1YWxpdHlzcQB+AAuZG7OjdAAiY29udmVydEVxdWl2YWxlbmNlVG9BVG9CQ29uc3RyYWludHNxAH4AC2Fj96F0AAR0YWdzc3EAfgALttSRdnQADGFzSW5zdGFuY2VPZnNxAH4AC9EA1rx0AAVhbGVydHNxAH4AC3wws4R0AANydW5zcQB+AAsQe3BTdAAGc2NvcGVzc3EAfgALuGVoxHQAA3Bvc3NxAH4ACxdNufV0AAxzeW5jaHJvbml6ZWRzcQB+AAvor0DKdAAOYXNzZXJ0Q29tcGlsZXNzcQB+AAuCjwrgdAAMYXNzZXJ0VGhyb3dzc3EAfgAL5QRzaHQADSRpc0luc3RhbmNlT2ZzcQB+AAtlhg4DdAAEdHJhcHNxAH4AC1WCVbx0ABV0ZXN0RGF0YUZvciRkZWZhdWx0JDJzcQB+AAsaFshodAAMYXNzZXJ0UmVzdWx0c3EAfgALGYUQQHQABHRleHRzcQB+AAuFSky7dAAsY29udmVydEVxdWl2YWxlbmNlVG9CVG9BQ29udmVyc2lvbkNvbnN0cmFpbnRzcQB+AAv+vyMKdAARZXhlY3V0ZSRkZWZhdWx0JDdzcQB+AAsDpqvadAAVdHlwZUNoZWNrZWRDb25zdHJhaW50c3EAfgALRWcIFXQAAyE9PXNxAH4AC9AlJH90AARpbmZvc3EAfgALoRgIdXQACW5vdGlmeUFsbHNxAH4AC3xPyj50AAt3aXRoRml4dHVyZXNxAH4AC0sxJNh0AAdydW5UZXN0c3EAfgALohrlnHQADGlzSW5zdGFuY2VPZnNxAH4AC+7TfHJ0AAh3aXRoQ2x1ZXNxAH4AC9oaO7J0ABBhc3NlcnRpb25zSGVscGVyc3EAfgALORAbRnQAEWV4ZWN1dGUkZGVmYXVsdCQ2c3EAfgALOWU2KXQAD2Fzc2VydFR5cGVFcnJvcnNxAH4AC+mJGbZ0AAZtYXJrdXBzcQB+AAv7d9lBdAAIbGVmdFNpZGVzcQB+AAsYrYr7dAAGPGluaXQ+c3EAfgALUvDE23QAC21hY3JvQXNzdW1lc3EAfgALTXt3mnQAD3J1bk5lc3RlZFN1aXRlc3NxAH4AC6gIGy90AAVhcHBseXNxAH4AC+teZf90AAlFcXVhbGl6ZXJzcQB+AAu8np9LdAAbbmV3QXNzZXJ0aW9uRmFpbGVkRXhjZXB0aW9uc3EAfgALn1gkOXQABG5vdGVzcQB+AAuzNAu/dAACPT1zcQB+AAsEiT0adAAFY2xvbmVzcQB+AAs8U1zTdAAMbmVzdGVkU3VpdGVzc3EAfgALmbl3ZnQABmFzc3VtZXNxAH4AC6+6c1l0ACBsb3dQcmlvcml0eVR5cGVDaGVja2VkQ29uc3RyYWludHNxAH4AC0PDmd90AAxyZWdpc3RlclRlc3RzcQB+AAs9bBA4dAARZXhlY3V0ZSRkZWZhdWx0JDVzcQB+AAtBnCpvdAADPT09c3EAfgALelB1GXQAGG5ld1Rlc3RDYW5jZWxlZEV4Y2VwdGlvbnNxAH4AC9clATV0AAh0b1N0cmluZ3NxAH4ACym/6390AAl0ZXN0TmFtZXNzcQB+AAv8GphMdAAPeWVPbGRlVGVzdE5hbWVzc3EAfgALWwOf5nQAEWV4ZWN1dGUkZGVmYXVsdCQxc3EAfgALOGdtFnQAFlB1YmxpY1NjYWxhQmFzaWNzU3VpdGVzcQB+AAtkqBDvdAACIT1zcQB+AAtqrXeGdAAIZ2V0Q2xhc3NzcQB+AAuKhqbJdAATcmVnaXN0ZXJJZ25vcmVkVGVzdHNxAH4AC+6jm3h0AAh0ZXN0c0ZvcnNxAH4AC8/dN5B0AAhydW5UZXN0c3NxAH4ACzRSf9h0ABFwZW5kaW5nVW50aWxGaXhlZHNxAH4AC76WtgB0ABFleHBlY3RlZFRlc3RDb3VudHNxAH4AC6swaTd0AAhyZXJ1bm5lcnNxAH4AC/t23Gx0ACJjb252ZXJ0RXF1aXZhbGVuY2VUb0JUb0FDb25zdHJhaW50c3EAfgALc9znVHQAAm5lc3EAfgALm4JSl3QAEUNoZWNraW5nRXF1YWxpemVyc3EAfgALhCwOcnQAB3BlbmRpbmdzcQB+AAtXA1S7dAAGaWdub3Jlc3EAfgAL/NPBtXQAC21hY3JvQXNzZXJ0c3EAfgAL1p2UgXQAAmVxc3EAfgALP8AP93QAGmNvbnZlcnRUb0NoZWNraW5nRXF1YWxpemVyc3EAfgALtoHHTHQACU5vQXJnVGVzdHNxAH4AC8hlwT10AAIjI3NxAH4ACzidhbF0AAhmaW5hbGl6ZXNxAH4AC89lt6N0ABtjb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAuZLXl0dAAIaGFzaENvZGVzcQB+AAuks+E1dAAHc3VpdGVJZHNxAH4AC2GOTAx0AAlzdWl0ZU5hbWVzcQB+AAufkJTWdAAGYXBwZW5kc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4A4XhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAHWJhc2ljcy5QdWJsaWNTY2FsYUJhc2ljc1N1aXRldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgD7AXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgDhTAAJaW5oZXJpdGVkcQB+AOFMAAdwYXJlbnRzcQB+AOF4cQB+AQJzcQB+APsBdXEAfgDcAAAAAHBzcQB+APsBdXEAfgDcAAAAAHBzcQB+APsBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAABBzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgEBdAAIRnVuU3VpdGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AQFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA29yZ3NxAH4BGnQACXNjYWxhdGVzdHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgEbc3EAfgEOdAAMRnVuU3VpdGVMaWtlcQB+ARRzcQB+AQ50AAtEb2N1bWVudGluZ3EAfgEUc3EAfgEOdAAIQWxlcnRpbmdxAH4BFHNxAH4BDnQACU5vdGlmeWluZ3EAfgEUc3EAfgEOdAAJSW5mb3JtaW5ncQB+ARRzcQB+AQ50ABBUZXN0UmVnaXN0cmF0aW9ucQB+ARRzcQB+AQ50AAlUZXN0U3VpdGVxAH4BFHNxAH4BDnQABVN1aXRlcQB+ARRzcQB+AQ50AAxTZXJpYWxpemFibGVzcQB+ARJzcQB+ARV1cQB+ARgAAAACc3EAfgEadAAFc2NhbGFxAH4BIXNxAH4BDnEAfgEzc3EAfgESc3EAfgEVdXEAfgEYAAAAA3NxAH4BGnQABGphdmFzcQB+ARp0AAJpb3EAfgEhc3EAfgEOdAAKQXNzZXJ0aW9uc3EAfgEUc3EAfgEOdAAMVHJpcGxlRXF1YWxzc3EAfgESc3EAfgEVdXEAfgEYAAAAA3NxAH4BGnQAA29yZ3NxAH4BGnQACXNjYWxhY3RpY3EAfgEhc3EAfgEOdAATVHJpcGxlRXF1YWxzU3VwcG9ydHEAfgFFc3EAfgEOdAAGT2JqZWN0c3EAfgESc3EAfgEVdXEAfgEYAAAAA3NxAH4BGnEAfgE+c3EAfgEadAAEbGFuZ3EAfgEhc3EAfgEOdAADQW55cQB+ATRwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQABmJhc2ljc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWg7KheV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABdL1VzZXJzL3Rob21hc21jZ2FycnkvRG9jdW1lbnRzL0tlaXRoL1NEUC0yMDE3L2V4ZXJjaXNlcy93ZWVrMDMvdGFyZ2V0L3NjYWxhLTIuMTIvdGVzdC1jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUoW1IfmeyhWGL727bEY1BClVeBLc=
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCXz1S/AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAQ3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGnCynx0AAZub3RpZnlzcQB+AAwCZuAXdAAJZ2V0TWV0aG9kc3EAfgAMEaa/DHQADXRyYXZlcnNlR3VhcmRzcQB+AAzsBfv4dAAHYXRPd25lcnNxAH4ADAJgG910AAR3YWl0c3EAfgAMDneGJHQADSRhc0luc3RhbmNlT2ZzcQB+AAxbSv0ndAAIaGFzTG9vcHNzcQB+AAwcesDudAAGZXF1YWxzc3EAfgAMZHtk53QAFnRyYXZlcnNlVHlwZUFzY3JpcHRpb25zcQB+AAyB5TISdAANdHJhdmVyc2VDYXNlc3NxAH4ADN9cwXN0AA90cmF2ZXJzZVBhdHRlcm5zcQB+AAxP8rCZdAAMYXNJbnN0YW5jZU9mc3EAfgAMrNz7RHQAEHRyYXZlcnNlQ29uc3RhbnRzcQB+AAwT2LzadAAIZ2V0VGVybXNzcQB+AAxrYn9YdAAMc3luY2hyb25pemVkc3EAfgAMqAz1I3QABWNhbGxzc3EAfgAMuDAObnQADSRpc0luc3RhbmNlT2ZzcQB+AAxcd3/hdAATdHJhdmVyc2VBbm5vdGF0aW9uc3NxAH4ADKkZkGB0ABZ0cmF2ZXJzZUltcG9ydFNlbGVjdG9yc3EAfgAMGs5Nj3QACWhhc1ZhckRlZnNxAH4ADNHKD090AApoYXNGb3JFYWNoc3EAfgAMaNhvtXQACW5vdGlmeUFsbHNxAH4ADEG5XA10AAdnZXRWYWxzc3EAfgAMS4R+h3QADnRyYXZlcnNlUGFyYW1zc3EAfgAMMpARo3QAB2dldFZhcnNzcQB+AAydiRQOdAAMaXNJbnN0YW5jZU9mc3EAfgAMfI1CL3QACmhhc0ZvckNvbXBzcQB+AAx6629rdAANdHJhdmVyc2VTdGF0c3NxAH4ADH5C7eh0AAY8aW5pdD5zcQB+AAxe+t8+dAAFYXBwbHlzcQB+AAwWEMdxdAADcmF3c3EAfgAMp5VB9XQABmdldFZhbHNxAH4ADKkxZLB0AAI9PXNxAH4ADJUCylt0AA50cmF2ZXJzZVRyZWVzc3NxAH4ADOlWcgp0AAh0cmF2ZXJzZXNxAH4ADBdHoid0AAVjbG9uZXNxAH4ADDvjgcx0AAxWYWxUcmF2ZXJzZXJzcQB+AAxVi/SfdAADaWZzc3EAfgAM3/ZASXQACmdldE1ldGhvZHNzcQB+AAxpM0GVdAANdHJhdmVyc2VUcmVlc3NxAH4ADD4haRp0AAZoYXNJZnNzcQB+AAyK9sdAdAAOVHJlZVRyYXZlcnNhbHNzcQB+AAwpBn48dAAJaGFzVmFsRGVmc3EAfgAMlRznmXQAEXRyYXZlcnNlTW9kaWZpZXJzc3EAfgAMKA+0xXQAD3RyYXZlcnNlUGFyYW1zc3NxAH4ADGAnU7t0AAh0b1N0cmluZ3NxAH4ADDx4n6x0AAxoYXNXaGlsZUxvb3BzcQB+AAwK5q0tdAACIT1zcQB+AAwy6hjNdAAPSWZFeHByVHJhdmVyc2Vyc3EAfgAMf0xygHQADmRvZXNOb3RIYXZlSWZzc3EAfgAMdlNiEnQADGN1cnJlbnRPd25lcnNxAH4ADENrBml0AAhnZXRDbGFzc3NxAH4ADNNhkBN0ABNNZXRob2RDYWxsVHJhdmVyc2Vyc3EAfgAMFYoesXQABmdldElmc3NxAH4ADAgiDm50ABB0cmF2ZXJzZVR5cGVBcmdzc3EAfgAMdcLD/3QAB3ZhbGRlZnNzcQB+AAwUfcw1dAAMdHJhdmVyc2VOYW1lc3EAfgAMwd2zynQAEHRyYXZlcnNlU2VsZlR5cGVzcQB+AAwfQOVydAAHZGVmZGVmc3NxAH4ADNICOuR0AAJuZXNxAH4ADG3M2AV0AAZhc1RyZWVzcQB+AAxZ7NR1dAAPdHJhdmVyc2VQYXJlbnRzc3EAfgAMlNehv3QAAmVxc3EAfgAMhuQle3QAAiMjc3EAfgAMg+ECMHQACGZpbmFsaXplc3EAfgAMbck4RnQACGhhc2hDb2Rlc3EAfgAMuELnFXQAD01ldGhvZFRyYXZlcnNlcnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AJ14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABZzdXBwb3J0LlRyZWVUcmF2ZXJzYWxzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Atnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AtQBwc3EAfgC6c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJ1MAAlpbmhlcml0ZWRxAH4AnUwAB3BhcmVudHNxAH4AnXhxAH4AvnNxAH4AtQBwc3EAfgC6dXEAfgCYAAAAAHNxAH4AtQBwc3EAfgC6dXEAfgCYAAAAAHNxAH4AtQBwc3EAfgC6dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgC9dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgC9c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDadAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDbc3EAfgDOdAADQW55c3EAfgDSc3EAfgDVdXEAfgDYAAAAAnNxAH4A2nQABXNjYWxhcQB+AOF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdzdXBwb3J0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFaCjVAu3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AF0vVXNlcnMvdGhvbWFzbWNnYXJyeS9Eb2N1bWVudHMvS2VpdGgvU0RQLTIwMTcvZXhlcmNpc2VzL3dlZWswMy90YXJnZXQvc2NhbGEtMi4xMi90ZXN0LWNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRI+GUOnWfKp7+A4YCD3B+1vV7Q7g==
+external apis:
+1 items
+basics.ScalaBasics$ -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBMbZ9IAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHylnFx0AAZub3RpZnlzcQB+AAzTEXobdAAMbWluUmVjdXJzaXZlc3EAfgAMctepw3QABHdhaXRzcQB+AAwgIHFcdAANJGFzSW5zdGFuY2VPZnNxAH4ADDKh3Mt0AAxpc1BhbGluZHJvbWVzcQB+AAyBIdIWdAAGZXF1YWxzc3EAfgAMGlaKHXQADGFzSW5zdGFuY2VPZnNxAH4ADH7DZlp0AAxzeW5jaHJvbml6ZWRzcQB+AAzUS0fPdAALU2NhbGFCYXNpY3NzcQB+AAzxUtuTdAANJGlzSW5zdGFuY2VPZnNxAH4ADIWX0E50AAhtaW5XaGlsZXNxAH4ADPEhRMt0AAZiYXNlMzZzcQB+AAyMMud5dAAJbm90aWZ5QWxsc3EAfgAMdcDPc3QADGlzSW5zdGFuY2VPZnNxAH4ADEiybIV0AAtzcGxpdEluSGFsZnNxAH4ADOBFjYt0AAI9PXNxAH4ADHf5tO10AAVjbG9uZXNxAH4ADPCJ58N0AAhvZGRSYW5nZXNxAH4ADPg/pYV0AAh0b1N0cmluZ3NxAH4ADJp2rZ90AAIhPXNxAH4ADDKz10h0AAhnZXRDbGFzc3NxAH4ADDA2z7p0AAZtaW5Gb3JzcQB+AAzBGebJdAACbmVzcQB+AAx+yhCOdAADYWRkc3EAfgAMRL02g3QAB2luUmFuZ2VzcQB+AAzu5tP4dAALd29yZENvdW50ZXJzcQB+AAw6oiDQdAACZXFzcQB+AAysK8n+dAACIyNzcQB+AAwqQJqYdAAIZmluYWxpemVzcQB+AAzj1bZYdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBTeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAASYmFzaWNzLlNjYWxhQmFzaWNzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBrAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBTTAAJaW5oZXJpdGVkcQB+AFNMAAdwYXJlbnRzcQB+AFN4cQB+AHJzcQB+AGsBdXEAfgBOAAAAAHBzcQB+AGsBdXEAfgBOAAAAAHBzcQB+AGsBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBxdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBxc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCKdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCLc3EAfgB+dAADQW55c3EAfgCCc3EAfgCFdXEAfgCIAAAAAnNxAH4AinQABXNjYWxhcQB+AJFwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABmJhc2ljc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWg7KcLF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABYL1VzZXJzL3Rob21hc21jZ2FycnkvRG9jdW1lbnRzL0tlaXRoL1NEUC0yMDE3L2V4ZXJjaXNlcy93ZWVrMDMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFAC8+GvV6TXGrM5PJjkiQltY4f+d
+source infos:
+2 items
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/basics/PublicScalaBasicsSuite.scala -> 
+AAAAAAAAAAA=
+/Users/thomasmcgarry/Documents/Keith/SDP-2017/exercises/week03/src/test/scala/support/TreeTraversals.scala -> 
+AAAAAAAAAAA=
+compilations:
+7 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWgo1QLt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXS9Vc2Vycy90aG9tYXNtY2dhcnJ5L0RvY3VtZW50cy9LZWl0aC9TRFAtMjAxNy9leGVyY2lzZXMvd2VlazAzL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWgo/nrN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXS9Vc2Vycy90aG9tYXNtY2dhcnJ5L0RvY3VtZW50cy9LZWl0aC9TRFAtMjAxNy9leGVyY2lzZXMvd2VlazAzL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWgpCTtx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXS9Vc2Vycy90aG9tYXNtY2dhcnJ5L0RvY3VtZW50cy9LZWl0aC9TRFAtMjAxNy9leGVyY2lzZXMvd2VlazAzL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWgpRuTZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXS9Vc2Vycy90aG9tYXNtY2dhcnJ5L0RvY3VtZW50cy9LZWl0aC9TRFAtMjAxNy9leGVyY2lzZXMvd2VlazAzL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWgpSebd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXS9Vc2Vycy90aG9tYXNtY2dhcnJ5L0RvY3VtZW50cy9LZWl0aC9TRFAtMjAxNy9leGVyY2lzZXMvd2VlazAzL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWgpVY3d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXS9Vc2Vycy90aG9tYXNtY2dhcnJ5L0RvY3VtZW50cy9LZWl0aC9TRFAtMjAxNy9leGVyY2lzZXMvd2VlazAzL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWg7KheV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXS9Vc2Vycy90aG9tYXNtY2dhcnJ5L0RvY3VtZW50cy9LZWl0aC9TRFAtMjAxNy9leGVyY2lzZXMvd2VlazAzL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS8=

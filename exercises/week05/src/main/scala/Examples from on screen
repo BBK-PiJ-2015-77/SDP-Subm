@@ -1,0 +1,29 @@
+Simple add def
+
+
+add def with frozen value
+
+def add(x: Int)(y: Int) = x + y
+
+you can then do, e.g.: add(2)(3)
+
+If you want to freeze the value of something, like 3:
+
+def add3(y: Int) = add(3)(y)
+
+so now 3 is fixed
+
+add3(4)
+
+returns 7
+
+add3(11)
+
+returns 14
+
+
+If you did something like:
+
+add(3)_
+
+This is called a partial function (or Currying)

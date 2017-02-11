@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/exercises.iml" filepath="$PROJECT_DIR$/exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week02/week02/alarmsystem/alarmsystem.iml" filepath="$PROJECT_DIR$/week02/week02/alarmsystem/alarmsystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week02/week02/alarmsystem-scala/alarmsystem-scala.iml" filepath="$PROJECT_DIR$/week02/week02/alarmsystem-scala/alarmsystem-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week02/week02/di/di.iml" filepath="$PROJECT_DIR$/week02/week02/di/di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week04/src/main/main.iml" filepath="$PROJECT_DIR$/week04/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week02/week02/springdi/springdi.iml" filepath="$PROJECT_DIR$/week02/week02/springdi/springdi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week02/week02/springdi-scala/springdi-scala.iml" filepath="$PROJECT_DIR$/week02/week02/springdi-scala/springdi-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week04/src/test/test.iml" filepath="$PROJECT_DIR$/week04/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/week01/week01.iml" filepath="$PROJECT_DIR$/week01/week01.iml" />
     </modules>
   </component>
