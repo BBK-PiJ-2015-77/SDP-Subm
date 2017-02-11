@@ -103,9 +103,13 @@ object Funcs {
     foldLeft(ls,0.0)((x,y) => x + y)
   }
 
-  def product(ls: List[Double]): Double = ???
+  def product(ls: List[Double]): Double = {
+    foldLeft(ls,1.0)((x,y) => x * y)
+  }
 
-  def length[A](ls: List[A]): Int = ???
+  def length[A](ls: List[A]): Int = {
+    foldLeft(ls,0)((x,y) =>  (x.^(0)).+(1)) //looks funny, but i had a problem using operators with Ints
+  }
 
   def reverse[A](ls: List[A]): List[A] = ???
 
