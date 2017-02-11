@@ -29,12 +29,11 @@ object Funcs {
     * @return a list whose head is `a' and whose tail is all but the first
     *         element of ls.
     **/
-  def setHead[A](ls: List[A], a: A): List[A] = ???
-    /*
-    ls match {
-    case head :: _ =>
+  def setHead[A](ls: List[A], a: A): List[A] = ls match{
+    case Nil => List(a)
+    case head :: tail => a :: tail
   }
-*/
+
   /**
     * drop removes n elements from the given list. If n is greater than the
     * length of the list, the function returns an empty list.
@@ -43,7 +42,14 @@ object Funcs {
     * @param n  : Int the number of elements to drop.
     * @return a list with the first n elements of ls removed, or an empty list.
     */
-  def drop[A](ls: List[A], n: Int): List[A] = ???
+  def drop[A](ls: List[A], n: Int): List[A] = ls match{
+    case Nil => Nil
+    //case (n > ls.length) => List() //why doesn't it like the '>' operator?
+    case _ :: tail => n match{
+      case 1 => tail
+      case _ => drop(tail, n-1)
+    }
+  }
 
   /**
     * init takes a list and removes the last element.
@@ -53,7 +59,11 @@ object Funcs {
     * @param ls : List[A] the list to be changed.
     * @return a list with the last element of ls removed.
     */
-  def init[A](ls: List[A]): List[A] = ???
+  def init[A](ls: List[A]): List[A] = ls match{
+    case Nil => throw new IllegalArgumentException
+    case _ :: Nil => Nil //Need this for the recursion to work
+    case head :: tail => head :: init(tail)
+  }
 
   // LIST FOLDING
 
