@@ -118,7 +118,13 @@ object Funcs {
       */
 
 
-  def flatten[A](ls: List[List[A]]): List[A] = ???
+  def flatten[A](ls: List[A]): List[A] = ls match{
+    case Nil => Nil
+    case (hd: List[A]) :: tl => flatten(hd) ::: flatten(tl)
+    case hd :: tl => hd :: flatten(tl)
+  }
+
+  //Had to use Keith's implementation - doesn't use foldLeft
   /**
   {
     foldLeft(ls,List())((x,y) => x++y) //need help
@@ -165,7 +171,11 @@ object Funcs {
     * @return a List[B] containing the flattened results of applying f to all
     *         elements of ls.
     */
-  def flatMap[A, B](ls: List[A])(f: A => List[B]): List[B] = ???
+  def flatMap[A, B](ls: List[A])(f: A => List[B]): List[B] = ls match{
+    case Nil => Nil
+    case (hd: List[A]) :: tl => flatMap(hd)(f) ::: flatMap(tl)(f)
+    case hd :: tl => f(hd) ++ flatMap(tl)(f)
+  }
 
   // COMBINING FUNCTIONS
 
