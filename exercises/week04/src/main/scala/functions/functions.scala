@@ -172,9 +172,9 @@ object Funcs {
     *         elements of ls.
     */
   def flatMap[A, B](ls: List[A])(f: A => List[B]): List[B] = ls match{
-    case Nil => Nil
     case (hd: List[A]) :: tl => flatMap(hd)(f) ::: flatMap(tl)(f)
     case hd :: tl => f(hd) ++ flatMap(tl)(f)
+    case Nil => Nil
   }
 
   // COMBINING FUNCTIONS
@@ -189,7 +189,10 @@ object Funcs {
     *           length is greater than 0.
     * @return the average value of the largest values in the pairs.
     */
-  def maxAverage(ls: List[(Double, Double)]): Double = ???
+  def maxAverage(ls: List[(Double, Double)]): Double = {
+    val maxList = map(ls){case (x,y) => if (x<y) y else x}
+    sum(maxList)/length(maxList)
+  }
 
   /**
     * variance takes a List[Double] and calculates the squared distance
@@ -203,5 +206,9 @@ object Funcs {
     * @param ls     : List[Double] a list of values, whose length is greater than 0.
     * @param return the variance of the input.
     */
-  def variance(ls: List[Double]): Double = ???
+  def variance(ls: List[Double]): Double = {
+    val mean = sum(ls)/length(ls)
+    val varList = map(ls){case x => (x-mean)*(x-mean)}
+    sum(varList)/length(varList)
+  }
 }
