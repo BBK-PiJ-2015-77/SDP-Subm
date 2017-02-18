@@ -81,9 +81,6 @@ object Funcs {
   def foldLeft[A, B](ls: List[A], z: B)(f: (B, A) => B): B = ls match{
       //goes from head to tail
     case Nil => z
-    //case _ :: Nil => Nil
-    //case l :: Nil => f(z,l)
-    //case l :: ls => f(z, foldLeft(ls,z)(f))
     case l :: ls => foldLeft(ls, f(z,l))(f)
   }
 
@@ -112,18 +109,24 @@ object Funcs {
   }
 
   def reverse[A](ls: List[A]): List[A] = ???
-
-  /*
-    ls match{
-    case hd :: tl => foldLeft(hd :: tl, 0)((x,y) => y) :: reverse(tl)
+    /**
+  {
+    //case hd :: tl => foldLeft(hd :: tl, 0)((x,y) => y) :: reverse(tl) //need help
+    foldLeft(Nil,ls)((x,y) => (y,x))
+     //case hd :: tl => reverse(tl)::foldLeft(hd,Nil)((x,y) => y)
   }
-  */
+      */
 
-  def flatten[A](ls: List[List[A]]): List[A] = {
-    foldLeft(ls,List())((x,y) => x++y)
+
+  def flatten[A](ls: List[List[A]]): List[A] = ???
+  /**
+  {
+    foldLeft(ls,List())((x,y) => x++y) //need help
   }
+    */
 
   // MAP AND FILTER
+
 
   /**
     * map applies a function to a list, producing a new list of the functions'
@@ -134,7 +137,10 @@ object Funcs {
     * @param f  : A => B the function to be applied to each element of the input.
     * @return the resulting list from applying f to each element of ls.
     */
-  def map[A, B](ls: List[A])(f: A => B): List[B] = ???
+  def map[A, B](ls: List[A])(f: A => B): List[B] = ls match{
+    case Nil =>Nil
+    case hd :: tl => f(hd) :: map(tl)(f)
+  }
 
   /**
     * filter removes all elements from a list for which a given predicate
