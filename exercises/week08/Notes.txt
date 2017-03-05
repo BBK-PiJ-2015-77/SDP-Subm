@@ -1,0 +1,30 @@
+To create a singleton object what do we do?
+
+We make the constructor of the class private
+We provide a method that will return the single instance of the class
+We either:
+a) create the object on loading, or (eager)
+b) create the object on demand (lazy)
+
+
+Good design cheat sheet:
+
+https://moodle.bbk.ac.uk/pluginfile.php/479826/mod_resource/content/1/rc008-designpatterns_online.pdf
+
+
+cw1
+
+AnyRef is the parent of Object, String... (see diagram on moodle page)
+AbyVal is parent of Int, Double, Boolean etc...
+
+If you have an Int and you need to go to an AnyRef
+
+No amount of casting will get you there
+
+Int 3
+new Integer(3)
+
+
+Design patterns:
+
+When examined, it's always the same: What are they? What do they do? Give an example
