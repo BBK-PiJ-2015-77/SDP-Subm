@@ -80,6 +80,7 @@ public class Translator {
         int s2;
         int r;
         int x;
+        String l2;
 
         if (line.equals(""))
             return null;
@@ -105,6 +106,10 @@ public class Translator {
                 s1 = scanInt();
                 s2 = scanInt();
                 return new MulInstruction(label, r, s1, s2);
+            case "bnz":
+                s1 = scanInt();
+                l2 = scan();
+                return new BNZInstruction(label, s1, l2);
             //Do we need to have a case for each operation?
         }
 
