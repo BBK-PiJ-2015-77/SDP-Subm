@@ -119,9 +119,10 @@ object Funcs {
 
 
   def flatten[A](ls: List[A]): List[A] = ls match{
-    case Nil => Nil
-    case (hd: List[A]) :: tl => flatten(hd) ::: flatten(tl)
+    //foldLeft[A, B](ls: List[A], z: B)(f: (B, A) => B): B
+    case (hd: List[A]) :: tl => foldLeft(hd,0){case x => x} ++ flatten(tl)
     case hd :: tl => hd :: flatten(tl)
+    case Nil => Nil
   }
 
   //Had to use Keith's implementation - doesn't use foldLeft
