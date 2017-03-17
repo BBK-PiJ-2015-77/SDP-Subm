@@ -110,6 +110,9 @@ public class Translator {
                 s1 = scanInt();
                 l2 = scan();
                 return new BNZInstruction(label, s1, l2);
+            case "out":
+                r = scanInt();
+                return new OutInstruction(label, r);
             //Do we need to have a case for each operation?
         }
 

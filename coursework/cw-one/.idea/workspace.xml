@@ -19,8 +19,8 @@
       <file leaf-file-name="Translator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SML/src/sml/Translator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-178">
-              <caret line="111" column="57" lean-forward="false" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+            <state relative-caret-position="227">
+              <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -56,26 +56,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Labels.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SML/src/sml/Labels.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubInstruction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SML/src/sml/SubInstruction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AddInstruction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SML/src/sml/AddInstruction.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,14 +69,14 @@
       <file leaf-file-name="test2.sml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.sml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.sml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test1.sml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test1.sml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -109,11 +89,39 @@
       <file leaf-file-name="BNZInstruction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SML/src/sml/BNZInstruction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="285">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="33" />
               <folding>
                 <element signature="e#602#603#0" expanded="true" />
                 <element signature="e#672#673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutInstruction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SML/src/sml/OutInstruction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinInstruction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SML/src/sml/LinInstruction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,9 +148,10 @@
         <option value="$PROJECT_DIR$/SML/src/sml/AddInstruction.java" />
         <option value="$PROJECT_DIR$/SML/src/sml/MulInstruction.java" />
         <option value="$PROJECT_DIR$/SML/src/sml/BNZInstruction.java" />
+        <option value="$PROJECT_DIR$/test1.sml" />
         <option value="$PROJECT_DIR$/test2.sml" />
         <option value="$PROJECT_DIR$/SML/src/sml/Translator.java" />
-        <option value="$PROJECT_DIR$/test1.sml" />
+        <option value="$PROJECT_DIR$/SML/src/sml/OutInstruction.java" />
       </list>
     </option>
   </component>
@@ -223,7 +232,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="sml.Machine" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="test1.sml" />
+      <option name="PROGRAM_PARAMETERS" value="test2.sml" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -695,12 +704,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489761203170</updated>
-      <workItem from="1489761204612" duration="6705000" />
+      <workItem from="1489761204612" duration="7218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6705000" />
+    <option name="totallyTimeSpent" value="7218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -715,7 +724,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -773,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SML/src/sml/LinInstruction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SML/src/sml/Labels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
@@ -805,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.sml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SML/src/sml/Registers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -829,6 +822,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test1.sml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SML/src/sml/LinInstruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SML/src/sml/BNZInstruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.sml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SML/src/sml/Instruction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
@@ -837,30 +868,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SML/src/sml/BNZInstruction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SML/src/sml/Translator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="111" column="57" lean-forward="false" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+        <state relative-caret-position="227">
+          <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1.sml">
+    <entry file="file://$PROJECT_DIR$/SML/src/sml/OutInstruction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
