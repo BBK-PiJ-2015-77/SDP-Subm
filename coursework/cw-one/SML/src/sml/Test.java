@@ -53,8 +53,8 @@ public class Test {
         System.out.println(className);
 
         try {
-            Class instruction = java.lang.Class.forName(className);
-            Constructor constructor = instruction.getConstructors();
+            //Class instruction = Class.forName(className);
+            Constructor[] addConstructors = Class.forName(className).getConstructors();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
