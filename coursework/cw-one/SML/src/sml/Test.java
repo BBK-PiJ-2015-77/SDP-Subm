@@ -52,9 +52,17 @@ public class Test {
         String className = "sml." + ins.substring(0,1).toUpperCase() + ins.substring(1) + "Instruction";
         System.out.println(className);
 
+        //addInstruction has...
+        //LinInstruction has...
+        //SubInstruction has...
+        //What patterns are in these classes that can be applied each time
+
         try {
-            //Class instruction = Class.forName(className);
+            Class instruction = Class.forName(className);
             Constructor[] addConstructors = Class.forName(className).getConstructors();
+            for (Constructor constructor : addConstructors) {
+                System.out.println("Constructor = " + constructor.getName());
+            }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
