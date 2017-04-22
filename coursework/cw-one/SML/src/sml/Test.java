@@ -66,23 +66,27 @@ public class Test {
         //find out how many parameters there are
         //1st parameter must be a string - use 'label' as argument
         //2nd parameter has to be an int (I think) - use scanInt() as argument
-        //3rd parameter, if string, use scan(), else scanInt()
+        //3rd parameter, if string, use scan(), else scanInt() - just use this rule in general apart from 1st argument
 
         try {
 
+            System.out.println("\nTest");
 
-            Class instruction = Class.forName(className);
             Constructor[] addConstructors = Class.forName(className).getConstructors();
-            for (Constructor constructor : addConstructors) {
-                //System.out.println("Constructor = " + constructor.getName());
-                System.out.println("\nNew constructor:");
-                Class[] parameterTypes = constructor.getParameterTypes();
+            Constructor<?> lastConstructor = null;
 
-                System.out.println("Check: " + parameterTypes.length); //shows how many parameters there are
+            //Select the last constructor
+            for (Constructor<?> currentConstructor : addConstructors) {
+                lastConstructor = currentConstructor;
+            }
 
-                for (Class c : parameterTypes) {
-                    System.out.println(c.getName());
-                }
+            //Create a list of arguments/objects
+
+            System.out.println(lastConstructor.getName());
+            Class[] parameterTypes = lastConstructor.getParameterTypes();
+
+            for (Class param : parameterTypes) {
+                System.out.println(param.getName());
             }
 
 
