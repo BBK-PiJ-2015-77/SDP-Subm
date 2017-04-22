@@ -2,6 +2,8 @@ package sml;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -91,13 +93,41 @@ public class Translator {
 
         String ins = scan();
 
-        //Can this be done without switch?
-        //need to use reflection to stop explicit calls to the methods
-
         String className = "sml." + ins.substring(0,1).toUpperCase() + ins.substring(1) + "Instruction";
 
         try {
-            Class c1 = Class.forName(className);
+
+            Constructor[] addConstructors = Class.forName(className).getConstructors();
+            Constructor<?> lastConstructor = null;
+
+            //Select the last constructor
+            for (Constructor<?> currentConstructor : addConstructors) {
+                lastConstructor = currentConstructor;
+            }
+
+            //Create a list of arguments/objects
+            Class[] parameterTypes = lastConstructor.getParameterTypes();
+            Object[] paramArray = new Object[parameterTypes.length];
+
+            for (int i=0; i<parameterTypes.length; i++) {
+                if (i == 0) {
+                    paramArray[i] = label;
+
+                } else if(parameterTypes[i].isAssignableFrom(String.class)) {
+                    paramArray[i] = scan();
+
+                } else if(parameterTypes[i].isAssignableFrom(int.class)) {
+                    paramArray[i] = scanInt();
+
+                }
+            }
+
+            try {
+                return (Instruction) lastConstructor.newInstance(paramArray);
+            } catch (InstantiationException | IllegalAccessException | InvocationTargetException e) {
+                e.printStackTrace();
+            }
+
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
