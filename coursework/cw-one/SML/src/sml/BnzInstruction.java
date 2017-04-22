@@ -1,7 +1,7 @@
 package sml;
 
 public class BnzInstruction extends Instruction {
-
+    //
     private int op;
     private String instruction;
 
