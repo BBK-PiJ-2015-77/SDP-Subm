@@ -109,7 +109,7 @@ public class Test {
             // MyObject myObject = (MyObject) constructor.newInstance("constructor-arg1");
 
             try {
-                (Instruction) lastConstructor.newInstance(paramArray);
+               Instruction ins = (Instruction) lastConstructor.newInstance(paramArray);
             } catch (InstantiationException | IllegalAccessException | InvocationTargetException e) {
                 e.printStackTrace();
             }
