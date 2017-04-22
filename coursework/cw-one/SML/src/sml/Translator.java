@@ -22,6 +22,7 @@ public class Translator {
     private Labels labels; // The labels of the program being translated
     private ArrayList<Instruction> program; // The program to be created
     private String fileName; // source file of SML code
+    private Class<?> instructionClass; //delete
 
     public Translator(String fileName) {
         this.fileName = PATH + fileName;
@@ -76,16 +77,35 @@ public class Translator {
     // removed. Translate line into an instruction with label label
     // and return the instruction
     public Instruction getInstruction(String label) {
+
+
         int s1; // Possible operands of the instruction
         int s2;
         int r;
         int x;
         String l2;
 
+
         if (line.equals(""))
             return null;
 
         String ins = scan();
+
+        //Can this be done without switch?
+        //need to use reflection to stop explicit calls to the methods
+
+        String className = "sml." + ins.substring(0,1).toUpperCase() + ins.substring(1) + "Instruction";
+
+        try {
+            Class c1 = Class.forName(className);
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+
+
+        /**
         switch (ins) {
             case "add":
                 r = scanInt();
@@ -118,10 +138,10 @@ public class Translator {
                 s1 = scanInt();
                 s2 = scanInt();
                 return new DivInstruction(label, r, s1, s2);
-            //Do we need to have a case for each operation?
+            //Do we need to have a case for each operation? this is where we use reflection
         }
+         */
 
-        // You will have to write code here for the other instructions.
 
         return null;
     }
