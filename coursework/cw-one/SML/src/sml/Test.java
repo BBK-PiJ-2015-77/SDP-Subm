@@ -69,7 +69,7 @@ public class Test {
         //1st parameter must be a string - use 'label' as argument
         //2nd parameter has to be an int (I think) - use scanInt() as argument
         //3rd parameter, if string, use scan(), else scanInt() - just use this rule in general apart from 1st argument
-
+/**
         try {
 
             System.out.println("\nTest");
@@ -120,6 +120,7 @@ public class Test {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+        */
 
 
         /**
