@@ -1,7 +1,9 @@
 package sml;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.List;
 
 /**
  * Created by thomasmcgarry on 19/03/2017.
@@ -85,8 +87,31 @@ public class Test {
             System.out.println(lastConstructor.getName());
             Class[] parameterTypes = lastConstructor.getParameterTypes();
 
+
             for (Class param : parameterTypes) {
                 System.out.println(param.getName());
+            }
+
+            Object[] paramArray = new Object[parameterTypes.length];
+
+            for (int i=0; i<parameterTypes.length; i++) {
+                if (i == 0) {
+                    paramArray[i] = "L1"; //label
+
+                } else if(parameterTypes[i].isAssignableFrom(String.class)) {
+                    paramArray[i] = "L8"; //scan()
+
+                } else if(parameterTypes[i].isAssignableFrom(int.class)) {
+                    paramArray[i] = 10;
+                }
+            }
+
+            // MyObject myObject = (MyObject) constructor.newInstance("constructor-arg1");
+
+            try {
+                (Instruction) lastConstructor.newInstance(paramArray);
+            } catch (InstantiationException | IllegalAccessException | InvocationTargetException e) {
+                e.printStackTrace();
             }
 
 
