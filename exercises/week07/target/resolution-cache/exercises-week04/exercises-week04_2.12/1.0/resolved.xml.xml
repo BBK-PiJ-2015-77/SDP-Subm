@@ -4,7 +4,7 @@
 		module="exercises-week04_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170305175440"
+		publication="20170423102106"
 	>
 		<description>
 		exercises week04
@@ -36,5 +36,27 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.1" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-agent_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-camel_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-cluster_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-cluster-metrics_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-cluster-sharding_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-cluster-tools_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-distributed-data_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-multi-node-testkit_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-osgi_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-persistence_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-persistence-query_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-persistence-tck_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-remote_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-slf4j_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream-testkit_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-typed_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-contrib_2.12" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.5" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-simple" rev="1.7.5" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

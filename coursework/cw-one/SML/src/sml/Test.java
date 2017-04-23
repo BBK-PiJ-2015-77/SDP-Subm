@@ -7,6 +7,8 @@ import java.util.List;
 
 /**
  * Created by thomasmcgarry on 19/03/2017.
+ *
+ * Just some tests in using reflection. Not required for the program to function.
  */
 public class Test {
 
