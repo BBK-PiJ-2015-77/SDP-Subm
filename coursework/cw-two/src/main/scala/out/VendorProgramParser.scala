@@ -3,6 +3,8 @@ package out
 import vendor.Instruction
 import vendor.ProgramParser
 
+import scala.collection.mutable.ListBuffer
+
 
 /**
   * Created by thomasmcgarry on 29/04/2017.
@@ -44,11 +46,23 @@ class VendorProgramParser extends ProgramParser{
     * @param string the string to parse
     * @return an instruction list
     */
-  override def parseString(string: String): InstructionList = ???
-  /**
-  {
-    import scala.io.Source
-    val lines =
+  override def parseString(string: String): InstructionList = {
+
+    val insList : ListBuffer[Instruction] = ListBuffer.empty[Instruction]
+
+    val parts = string.split("\n")
+
+    for (part <- parts) {
+      val fields = part.split(" ")
+      if (fields.size > 1) {
+        insList += new Instruction(fields(0),Vector(fields(1).toInt))
+      } else {
+        insList += new Instruction(fields(0),Vector.empty)
+      }
+    }
+
+    val result : InstructionList = insList.toVector
+
   }
-  */
+
 }
