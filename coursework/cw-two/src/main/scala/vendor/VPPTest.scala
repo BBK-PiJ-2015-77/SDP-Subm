@@ -5,6 +5,7 @@ import vendor.Instruction
 
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
+import bc.ByteCode
 
 /**
   * Created by thomasmcgarry on 29/04/2017.
@@ -81,13 +82,14 @@ object VPPTest extends App{
 
   println("\nOther tests:\n")
   val vp = VirtualMachineFactory.vendorParser
-  //val fileName: String = "src/main/scala/vendor/p01.vm"
+  //val fileName: String = "programs/p01.vm"
 
-  val instructionString = Source.fromFile("src/main/scala/vendor/p01.vm").mkString
+  val instructionString = Source.fromFile("programs/p01.vm").mkString
   println(instructionString)
 
+
 /**
-  val test1 = vp.parse("src/main/scala/vendor/p01.vm")
+  val test1 = vp.parse("programs/p01.vm")
 
 
   for(ins <- test1) {
