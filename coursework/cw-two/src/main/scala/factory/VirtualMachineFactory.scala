@@ -1,8 +1,8 @@
 package factory
 
 import bc.{ByteCodeFactory, ByteCodeParser}
-import vendor.ProgramParser
 import vm.{VirtualMachine, VirtualMachineParser}
+import vendor.ProgramParser
 
 /**
   * The `VirtualMachineFactory` follows the *factory pattern*. It provides
