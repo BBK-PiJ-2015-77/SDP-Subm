@@ -22,5 +22,6 @@ class Print extends ByteCode{
   override def execute(vm: VirtualMachine): VirtualMachine = {
     val x = vm.pop()
     print(x._1)
+    vm
   }
 }

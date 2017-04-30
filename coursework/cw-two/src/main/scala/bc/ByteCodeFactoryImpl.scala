@@ -20,6 +20,8 @@ class ByteCodeFactoryImpl extends ByteCodeFactory with ByteCodeValues{
     * @return a new bytecode object
     */
   override def make(byte: Byte, args: Int*): ByteCode = {
+    //need to check if bytecode is valid, throw an exceptio if not
+
     val iaddByte = bytecode ("iadd")
     val iconstByte = bytecode ("iconst")
     val idecByte = bytecode ("idec")
