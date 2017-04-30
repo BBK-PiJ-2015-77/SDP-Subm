@@ -1,5 +1,6 @@
 package vendor
 
+import factory.VirtualMachineFactory
 import vendor.Instruction
 
 import scala.collection.mutable.ListBuffer
@@ -78,8 +79,21 @@ object VPPTest extends App{
   }
     */
 
+  println("\nOther tests:\n")
+  val vp = VirtualMachineFactory.vendorParser
+  //val fileName: String = "src/main/scala/vendor/p01.vm"
+
+  val instructionString = Source.fromFile("src/main/scala/vendor/p01.vm").mkString
+  println(instructionString)
+
+/**
+  val test1 = vp.parse("src/main/scala/vendor/p01.vm")
 
 
+  for(ins <- test1) {
+    println(ins)
+  }
 
+*/
 
 }

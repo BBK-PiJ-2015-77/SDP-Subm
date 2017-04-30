@@ -10,7 +10,7 @@ import scala.io.Source
 /**
   * Created by thomasmcgarry on 29/04/2017.
   */
-class VendorProgramParser extends ProgramParser{
+class VendorProgramParserImpl extends ProgramParser{
 
   def InstructionList(args: Instruction) = Vector(args)
 
@@ -23,7 +23,7 @@ class VendorProgramParser extends ProgramParser{
     */
   override def parse(file: String): InstructionList = {
 
-    val instructionString = Source.fromFile(file).toString()
+    val instructionString = Source.fromFile(file).mkString
 
     parseString(instructionString)
 
