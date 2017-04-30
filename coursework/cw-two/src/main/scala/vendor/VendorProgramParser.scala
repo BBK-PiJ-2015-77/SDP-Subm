@@ -1,4 +1,4 @@
-package out
+package vendor
 
 import vendor.Instruction
 import vendor.ProgramParser
@@ -11,6 +11,9 @@ import scala.io.Source
   * Created by thomasmcgarry on 29/04/2017.
   */
 class VendorProgramParser extends ProgramParser{
+
+  def InstructionList(args: Instruction) = Vector(args)
+
   /**
     * Parses a file representation of a bytecode program
     * into an `InstructionList`.
