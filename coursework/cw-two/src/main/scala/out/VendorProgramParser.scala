@@ -4,6 +4,7 @@ import vendor.Instruction
 import vendor.ProgramParser
 
 import scala.collection.mutable.ListBuffer
+import scala.io.Source
 
 
 /**
@@ -17,27 +18,13 @@ class VendorProgramParser extends ProgramParser{
     * @param file the file to parse
     * @return an instruction list
     */
-  override def parse(file: String): InstructionList = ???
-  /**
-  {
-    val vectorA : Vector[Int] = Vector(4)
-    val vectorB : Vector[Int] = Vector(5)
-    val vectorEmpty : Vector[Int] = Vector.empty
+  override def parse(file: String): InstructionList = {
 
+    val instructionString = Source.fromFile(file).toString()
 
-    var a : Instruction = ("iconst", vectorA)
-    var b : Instruction = ("iconst", vectorB)
-    var c : Instruction = ("iadd", vectorEmpty)
-    var d : Instruction = ("print", vectorEmpty)
-
-    val result : Vector[Instruction] = Vector(a,b,c,d)
+    parseString(instructionString)
 
   }
-    */
-
-    //readAndTranslate?
-  //what is an instructionlist? - a vector of Instruction objects
-  //what is an Instruction? A (`String`, `Vector[Int]`) pair
 
   /**
     * Parses a string representation of a bytecode program
@@ -62,6 +49,7 @@ class VendorProgramParser extends ProgramParser{
     }
 
     val result : InstructionList = insList.toVector
+    result
 
   }
 
