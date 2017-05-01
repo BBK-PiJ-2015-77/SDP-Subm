@@ -5,12 +5,12 @@ import vendor.Instruction
 
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
-import bc.ByteCode
+import bc.{ByteCode, ByteCodeValues}
 
 /**
   * Created by thomasmcgarry on 29/04/2017.
   */
-object VPPTest extends App{
+object VPPTest extends App with ByteCodeValues{
 
   val vectorA : Vector[Int] = Vector(4)
   val vectorB : Vector[Int] = Vector(5)
@@ -87,6 +87,11 @@ object VPPTest extends App{
   val instructionString = Source.fromFile("programs/p01.vm").mkString
   println(instructionString)
 
+
+  println("\nbytecode:")
+  for (bc <- bytecode) {
+    println(bc)
+  }
 
 /**
   val test1 = vp.parse("programs/p01.vm")
