@@ -76,8 +76,8 @@
       <file leaf-file-name="ByteCodeFactoryImpl.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bc/ByteCodeFactoryImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+            <state relative-caret-position="-10">
+              <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -949,7 +949,7 @@
       <workItem from="1492860269891" duration="1224000" />
       <workItem from="1493323297806" duration="544000" />
       <workItem from="1493462409570" duration="20852000" />
-      <workItem from="1493562156487" duration="11993000" />
+      <workItem from="1493562156487" duration="12031000" />
     </task>
     <servers />
   </component>
@@ -975,8 +975,8 @@
     <history-entry file="PublicByteCodeFactorySuite - 2017.05.01 at 12h 51m 40s.xml">
       <configuration name="PublicByteCodeFactorySuite" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="PublicVendorParserSuite - 2017.04.30 at 14h 49m 35s.xml">
-      <configuration name="PublicVendorParserSuite" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="PublicByteCodeFactorySuite - 2017.05.01 at 12h 53m 21s.xml">
+      <configuration name="PublicByteCodeFactorySuite" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="PublicVendorParserSuite - 2017.04.30 at 14h 50m 32s.xml">
       <configuration name="PublicVendorParserSuite" configurationId="ScalaTestRunConfiguration" />
@@ -986,7 +986,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34613000" />
+    <option name="totallyTimeSpent" value="34651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1238" height="712" extended-state="0" />
@@ -1002,7 +1002,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1326,8 +1326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bc/ByteCodeFactoryImpl.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        <state relative-caret-position="-10">
+          <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
           <folding />
         </state>
       </provider>

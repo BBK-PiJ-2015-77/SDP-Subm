@@ -48,6 +48,7 @@ class ByteCodeFactoryImpl extends ByteCodeFactory with ByteCodeValues{
       case byte if (byte == bytecode("iadd")) => new Iadd
       case byte if (byte == bytecode("iconst")) => new Iconst(args(0))
       case byte if (byte == bytecode("idec")) => new Idec
+      case byte if (byte == bytecode("idiv")) => new Idiv
       case byte if (byte == bytecode("idup")) => new Idup
       case byte if (byte == bytecode("iinc")) => new Iinc
       case byte if (byte == bytecode("imul")) => new Imul
