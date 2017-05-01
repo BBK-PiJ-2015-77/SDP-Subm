@@ -20,32 +20,46 @@ class ByteCodeFactoryImpl extends ByteCodeFactory with ByteCodeValues{
     * @return a new bytecode object
     */
   override def make(byte: Byte, args: Int*): ByteCode = {
-    //need to check if bytecode is valid, throw an exceptio if not
 
-    val iaddByte = bytecode ("iadd")
-    val iconstByte = bytecode ("iconst")
-    val idecByte = bytecode ("idec")
-    val idupByte = bytecode ("idup")
-    val iincByte = bytecode ("iinc")
-    val imulByte = bytecode ("imul")
-    val inegByte = bytecode ("ineg")
-    val iremByte = bytecode ("irem")
-    val isubByte = bytecode ("isub")
-    val iswapByte = bytecode ("iswap")
-    val printByte = bytecode ("print")
+    /**
+    val iaddByte = bytecode("iadd")
+    val iconstByte = bytecode("iconst")
+    val idecByte = bytecode("idec")
+    val idupByte = bytecode("idup")
+    val iincByte = bytecode("iinc")
+    val imulByte = bytecode("imul")
+    val inegByte = bytecode("ineg")
+    val iremByte = bytecode("irem")
+    val isubByte = bytecode("isub")
+    val iswapByte = bytecode("iswap")
+    val printByte = bytecode("print")
+      */
+    val byteMax = bytecode.size
 
-    byte match {
-      case iaddByte => new Iadd
-      case iconstByte => new Iconst(args(0))
-      case idecByte => new Idec
-      case idupByte => new Idup
-      case iincByte => new Iinc
-      case imulByte => new Imul
-      case inegByte => new Ineg
-      case iremByte => new Irem
-      case isubByte => new Isub
-      case iswapByte => new Iswap
-      case printByte => new Print
+
+    if ((byte > byteMax) || ( byte <= 0)) {
+      throw new InvalidBytecodeException("Invalid Bytecode")
+    }
+
+
+
+
+    (byte) match {
+      case byte if (byte == bytecode("iadd")) => new Iadd
+      case `iconstByte` => new Iconst(args(0))
+        /**
+      case (byte == bytecode("iadd")) => new Iadd
+      case `iconstByte` => new Iconst(args(0))
+      case `idecByte` => new Idec
+      case `idupByte` => new Idup
+      case `iincByte` => new Iinc
+      case `imulByte` => new Imul
+      case `inegByte` => new Ineg
+      case `iremByte` => new Irem
+      case `isubByte` => new Isub
+      case `iswapByte` => new Iswap
+      case `printByte` => new Print
+          */
     }
 
   }
