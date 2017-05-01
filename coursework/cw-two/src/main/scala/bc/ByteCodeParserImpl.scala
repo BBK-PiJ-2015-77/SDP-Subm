@@ -30,6 +30,8 @@ class ByteCodeParserImpl extends ByteCodeParser with ByteCodeValues{
       bcList += bcf.make(byte)
     }
 
+    bcList.toVector
+
   }
 
 
