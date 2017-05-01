@@ -26,9 +26,24 @@ class ByteCodeParserImpl extends ByteCodeParser with ByteCodeValues{
 
     val bcList : ListBuffer[ByteCode] = ListBuffer.empty[ByteCode]
 
-    for (byte <- bc) {
-      bcList += bcf.make(byte)
+    for(i <- 0 to (bc.length-1)) {
+      if(bc(i) == bytecode("iconst")) {
+        bcList += bcf.make(bc(i),bc(i+1))
+        i += 1
+      } else {
+        bcList += bcf.make(bc(i))
+      }
     }
+    /**
+    for (byte <- bc) {
+      if(byte == bytecode("iconst")) {
+
+      }
+
+      bcList += bcf.make(byte)
+
+    }
+    */
 
     bcList.toVector
 
