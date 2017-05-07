@@ -64,10 +64,7 @@ class VirtualMachineParserImpl extends VirtualMachineParser with ByteCodeValues{
       if (ins.args.length > 0) {
         byteList += bytecode(ins.name)
         byteList += ins.args(0).toByte
-      } else if (ins.args.length == 0) {
-        if (!bytecode.contains(ins.name)) {
-          throw new InvalidBytecodeException("ByteCode doesn't exist")
-        }
+      } else if ((ins.args.length == 0) && bytecode.contains(ins.name)) {
         byteList += bytecode(ins.name)
       } else {
         throw new InvalidBytecodeException("Invalid ByteCode")
