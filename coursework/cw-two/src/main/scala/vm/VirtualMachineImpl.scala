@@ -21,7 +21,9 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     * @return a new virtual machine
     */
   override def execute(bc: Vector[ByteCode]): VirtualMachine = {
-
+    for (code <- bc) {
+      code.execute(this)
+    }
 
     /**
     for(code <- bc) {
@@ -55,7 +57,10 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     * @param value the integer to push
     * @return a new virtual machine with the integer `value` pushed
     */
-  override def push(value: Int): VirtualMachine = ???
+  override def push(value: Int): VirtualMachine = {
+    stack.push(value)
+    this
+  }
 
   /**
     * Pops an integer value off of the virtual machine stack.
@@ -63,7 +68,11 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     * @return (i, vm), where i is the integer popped and vm is the
     *         new virtual machine
     */
-  override def pop(): (Int, VirtualMachine) = ???
+  override def pop(): (Int, VirtualMachine) = {
+    val top = stack.top
+    stack.pop
+    (top, this)
+  }
 
   /**
     * Returns the state of the virtual machine stack.
