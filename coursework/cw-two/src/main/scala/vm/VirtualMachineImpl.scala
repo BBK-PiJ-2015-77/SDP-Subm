@@ -10,7 +10,7 @@ import scala.collection.mutable.ListBuffer
   */
 class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
 
-  val stack = Stack[Int]()
+  var stack = Stack[Int]()
   /**
     * Executes a vector of bytecodes.
     *
@@ -60,7 +60,7 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     * @return a new virtual machine with the integer `value` pushed
     */
   override def push(value: Int): VirtualMachine = {
-    stack.push(value)
+    stack = stack.push(value)
     this
   }
 
@@ -72,7 +72,7 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     */
   override def pop(): (Int, VirtualMachine) = {
     val top = stack.top
-    stack.pop
+    stack = stack.pop
     (top, this)
   }
 
@@ -84,15 +84,7 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     * @return the state of the stack
     */
   override def state: Vector[Int] = {
-
-    val stackList : ListBuffer[Int] = ListBuffer.empty[Int]
-
-    for (a <- stack) {
-      stackList += a
-    }
-
-    val result = stackList.toVector
-    result
+    stack.toVector
   }
 
 }
