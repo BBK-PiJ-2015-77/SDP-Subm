@@ -24,4 +24,13 @@ object TestCompositePattern extends App {
 
     p1.addChildTag(child1)
     parentTag.generateHtml
+
+    /**
+      * <html>
+      * <body>
+      * <P>Testing html tag library</P>
+      * <P>Paragraph 2</P>
+      * </body>
+      * </html>
+      */
 }
