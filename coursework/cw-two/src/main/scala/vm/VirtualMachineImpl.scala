@@ -3,7 +3,6 @@ package vm
 import bc.{ByteCode, ByteCodeValues}
 
 import scala.collection.immutable.Stack
-import scala.collection.mutable.ListBuffer
 
 /**
   * Created by thomasmcgarry on 07/05/2017.
@@ -26,15 +25,6 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
       code.execute(this)
     }
     this
-
-    /**
-    for(code <- bc) {
-      if (code == bytecode("iconst")) {
-        stack.push(code)
-      }
-    }
-      */
-
   }
 
   /**

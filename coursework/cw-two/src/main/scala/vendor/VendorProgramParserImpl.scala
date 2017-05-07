@@ -40,12 +40,16 @@ class VendorProgramParserImpl extends ProgramParser{
     val parts = string.split("\n")
 
     for (part <- parts) {
+
       val fields = part.split(" ")
+
+      //if (fields.size > 1) i.e. this is an 'iconst + arg' instruction
       if (fields.size > 1) {
         insList += new Instruction(fields(0),Vector(fields(1).toInt))
       } else {
         insList += new Instruction(fields(0),Vector.empty)
       }
+
     }
 
     val result : InstructionList = insList.toVector
