@@ -3,6 +3,7 @@ package vm
 import bc.{ByteCode, ByteCodeValues}
 
 import scala.collection.immutable.Stack
+import scala.collection.mutable.ListBuffer
 
 /**
   * Created by thomasmcgarry on 07/05/2017.
@@ -24,6 +25,7 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     for (code <- bc) {
       code.execute(this)
     }
+    this
 
     /**
     for(code <- bc) {
@@ -81,5 +83,16 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     *
     * @return the state of the stack
     */
-  override def state: Vector[Int] = ???
+  override def state: Vector[Int] = {
+
+    val stackList : ListBuffer[Int] = ListBuffer.empty[Int]
+
+    for (a <- stack) {
+      stackList += a
+    }
+
+    val result = stackList.toVector
+    result
+  }
+
 }
