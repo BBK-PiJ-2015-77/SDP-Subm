@@ -8,7 +8,7 @@ import scala.collection.mutable.ListBuffer
 /**
   * Created by thomasmcgarry on 01/05/2017.
   */
-class VirtualMachineParserimpl extends VirtualMachineParser with ByteCodeValues{
+class VirtualMachineParserImpl extends VirtualMachineParser with ByteCodeValues{
 
   //Use composition of the other two parsers as part of the implementation
 
@@ -28,7 +28,11 @@ class VirtualMachineParserimpl extends VirtualMachineParser with ByteCodeValues{
     * @param file the file containing a program
     * @return a vector of bytecodes
     */
-  override def parse(file: String): Vector[ByteCode] = ???
+  override def parse(file: String): Vector[ByteCode] = {
+    val insList = vendorProgramParser.parse(file)
+    val byteVector = insListToByteVector(insList)
+    byteCodeParser.parse(byteVector)
+  }
   //need to translate file of instructions (String) to InstructionList
   //using VendorParserImpl
   //translate this InstructionList ot Vector[Bytecode]
@@ -47,25 +51,27 @@ class VirtualMachineParserimpl extends VirtualMachineParser with ByteCodeValues{
   override def parseString(str: String): Vector[ByteCode] = {
     val insList = vendorProgramParser.parseString(str) //gives an InstructionList (which is a Vector[Instruction])
     //and an Instruction is (String, Vector[Int])
+    val byteVector = insListToByteVector(insList)
+    byteCodeParser.parse(byteVector)
   }
 
 
   def insListToByteVector(insList: Vector[Instruction]): Vector[Byte] = {
 
-    val byteVector : ListBuffer[Byte] = ListBuffer.empty[Byte]
+    val byteList : ListBuffer[Byte] = ListBuffer.empty[Byte]
 
     for(ins <- insList) {
       if (ins.args.length > 0) {
-        byteVector += bytecode(ins.name)
-        byteVector += ins.args(0).toByte
+        byteList += bytecode(ins.name)
+        byteList += ins.args(0).toByte
       } else if (ins.args.length == 0) {
-        byteVector += bytecode(ins.name)
+        byteList += bytecode(ins.name)
       } else {
         throw new InvalidBytecodeException("Invalid ByteCode")
       }
     }
 
-    val result : Vector[Byte] = byteVector.toVector
+    val result : Vector[Byte] = byteList.toVector
     result
 
   }
