@@ -1,13 +1,14 @@
 package vm
 
-import bc.{ByteCode, ByteCodeParserImpl}
-import com.sun.org.apache.bcel.internal.generic.InstructionList
+import bc.{ByteCode, ByteCodeParserImpl, ByteCodeValues, InvalidBytecodeException}
 import vendor.{Instruction, VendorProgramParserImpl}
+
+import scala.collection.mutable.ListBuffer
 
 /**
   * Created by thomasmcgarry on 01/05/2017.
   */
-class VirtualMachineParserimpl extends VirtualMachineParser{
+class VirtualMachineParserimpl extends VirtualMachineParser with ByteCodeValues{
 
   //Use composition of the other two parsers as part of the implementation
 
@@ -49,11 +50,23 @@ class VirtualMachineParserimpl extends VirtualMachineParser{
   }
 
 
-  def insListToByte(insList: InstructionList): Vector[Byte] = {
+  def insListToByteVector(insList: Vector[Instruction]): Vector[Byte] = {
+
+    val byteVector : ListBuffer[Byte] = ListBuffer.empty[Byte]
 
     for(ins <- insList) {
-      if ins._1 ==
+      if (ins.args.length > 0) {
+        byteVector += bytecode(ins.name)
+        byteVector += ins.args(0).toByte
+      } else if (ins.args.length == 0) {
+        byteVector += bytecode(ins.name)
+      } else {
+        throw new InvalidBytecodeException("Invalid ByteCode")
+      }
     }
+
+    val result : Vector[Byte] = byteVector.toVector
+    result
 
   }
 
