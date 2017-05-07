@@ -49,8 +49,7 @@ class VirtualMachineParserImpl extends VirtualMachineParser with ByteCodeValues{
     * @return a vector of bytecodes
     */
   override def parseString(str: String): Vector[ByteCode] = {
-    val insList = vendorProgramParser.parseString(str) //gives an InstructionList (which is a Vector[Instruction])
-    //and an Instruction is (String, Vector[Int])
+    val insList = vendorProgramParser.parseString(str)
     val byteVector = insListToByteVector(insList)
     byteCodeParser.parse(byteVector)
   }
