@@ -1,8 +1,5 @@
 package vendor
 
-import vendor.Instruction
-import vendor.ProgramParser
-
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
 

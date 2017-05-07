@@ -1,4 +1,4 @@
-name := """exercises week04"""
+name := """akka Actors"""
 
 version := "1.0"
 
