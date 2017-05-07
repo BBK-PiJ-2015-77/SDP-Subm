@@ -1,7 +1,7 @@
 package factory
 
 import bc.{ByteCodeFactory, ByteCodeFactoryImpl, ByteCodeParser, ByteCodeParserImpl}
-import vm.{VirtualMachine, VirtualMachineParser}
+import vm.{VirtualMachine, VirtualMachineParser, VirtualMachineParserImpl}
 import vendor.{ProgramParser, VendorProgramParserImpl}
 
 /**
@@ -20,7 +20,7 @@ object VirtualMachineFactory {
   def byteCodeParser: ByteCodeParser = new ByteCodeParserImpl
 
   // TODO
-  def virtualMachineParser: VirtualMachineParser = ???
+  def virtualMachineParser: VirtualMachineParser = new VirtualMachineParserImpl
 
   // TODO
   def virtualMachine: VirtualMachine = ???
