@@ -146,10 +146,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/messaging/StudentActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/delayedMessaging/StudentDelayedActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lifecycle/LifeCycle.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/lifecycle/BasicLifecycleLoggingActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lifecycle/LifecycleApp.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/tests/tests.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/lifecycle/BasicLifecycleLoggingActor.scala" />
       </list>
     </option>
   </component>

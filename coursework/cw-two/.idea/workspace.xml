@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/vendor/VPPTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bc/ByteCodeParserImpl.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/factory/VirtualMachineFactory.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/vendor/VendorProgramParserImpl.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/vm/VirtualMachineParserimpl.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/vendor/VendorProgramParserImpl.scala" />
       </list>
     </option>
   </component>
