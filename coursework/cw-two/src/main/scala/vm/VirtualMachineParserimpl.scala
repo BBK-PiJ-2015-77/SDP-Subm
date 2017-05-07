@@ -28,11 +28,12 @@ class VirtualMachineParserImpl extends VirtualMachineParser with ByteCodeValues{
     //Parses a file representation of a bytecode program into an `InstructionList`.
     val insList = vendorProgramParser.parse(file)
 
-    //Parses an 'InstructionList' to a Vector[Byte]
-    val byteVector = insListToByteVector(insList)
+    //Parses an 'InstructionList' to a Vector[ByteCode]
+    //val byteVector =
+    insListToByteCodeVector(insList)
 
     //Parses a Vector[Byte] into a Vector[ByteCode]
-    byteCodeParser.parse(byteVector)
+    //byteCodeParser.parse(byteVector)
   }
 
   /**
@@ -50,23 +51,21 @@ class VirtualMachineParserImpl extends VirtualMachineParser with ByteCodeValues{
     //Parses a file representation of a bytecode program into an `InstructionList`.
     val insList = vendorProgramParser.parseString(str)
 
-    //Parses an 'InstructionList' to a Vector[Byte]
-    val byteVector = insListToByteVector(insList)
+    //Parses an 'InstructionList' to a Vector[ByteCode]
+    insListToByteCodeVector(insList)
 
-    //Parses a Vector[Byte] into a Vector[ByteCode]
-    byteCodeParser.parse(byteVector)
   }
 
   /**
     * Returns a vector of [[Byte]].
     *
     * This method parses a vector of Instruction objects into a
-    * vector of Byte objects.
+    * vector of ByteCode objects.
     *
     * @param insList an instruction list
-    * @return a vector of Bytes
+    * @return a vector of ByteCodes
     */
-  def insListToByteVector(insList: Vector[Instruction]): Vector[Byte] = {
+  def insListToByteCodeVector(insList: Vector[Instruction]): Vector[ByteCode] = {
 
     val byteList : ListBuffer[Byte] = ListBuffer.empty[Byte]
 
@@ -81,8 +80,8 @@ class VirtualMachineParserImpl extends VirtualMachineParser with ByteCodeValues{
       }
     }
 
-    val result : Vector[Byte] = byteList.toVector
-    result
+    //Parses a Vector[Byte] into a Vector[ByteCode]
+    byteCodeParser.parse(byteList.toVector)
 
   }
 
