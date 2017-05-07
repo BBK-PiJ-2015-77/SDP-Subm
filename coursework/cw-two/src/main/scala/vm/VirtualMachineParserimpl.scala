@@ -9,7 +9,11 @@ import vendor.VendorProgramParserImpl
 class VirtualMachineParserimpl extends VirtualMachineParser{
 
   //Use composition of the other two parsers as part of the implementation
+
+  //parses a vector of `Byte` into a vector of `ByteCode`
   val byteCodeParser = new ByteCodeParserImpl
+
+  //Parses a file representation of a bytecode program into an `InstructionList`.
   val vendorProgramParser = new VendorProgramParserImpl
 
   /**
@@ -23,6 +27,10 @@ class VirtualMachineParserimpl extends VirtualMachineParser{
     * @return a vector of bytecodes
     */
   override def parse(file: String): Vector[ByteCode] = ???
+  //need to translate file of instructions (String) to InstructionList
+  //using VendorParserImpl
+  //translate this InstructionList ot Vector[Bytecode]
+  //translate InstructionList to Vector[Byte] then use BytecodeParserImpl
 
   /**
     * Returns a vector of [[bc.ByteCode]].
