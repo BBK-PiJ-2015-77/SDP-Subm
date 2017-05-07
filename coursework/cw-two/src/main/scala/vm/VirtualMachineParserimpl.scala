@@ -1,7 +1,8 @@
 package vm
 
 import bc.{ByteCode, ByteCodeParserImpl}
-import vendor.VendorProgramParserImpl
+import com.sun.org.apache.bcel.internal.generic.InstructionList
+import vendor.{Instruction, VendorProgramParserImpl}
 
 /**
   * Created by thomasmcgarry on 01/05/2017.
@@ -46,4 +47,15 @@ class VirtualMachineParserimpl extends VirtualMachineParser{
     val insList = vendorProgramParser.parseString(str) //gives an InstructionList (which is a Vector[Instruction])
     //and an Instruction is (String, Vector[Int])
   }
+
+
+  def insListToByte(insList: InstructionList): Vector[Byte] = {
+
+    for(ins <- insList) {
+      if ins._1 ==
+    }
+
+  }
+
+
 }
