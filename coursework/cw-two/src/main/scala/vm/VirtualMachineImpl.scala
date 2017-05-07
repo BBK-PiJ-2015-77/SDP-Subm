@@ -22,12 +22,7 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     */
   override def execute(bc: Vector[ByteCode]): VirtualMachine = {
 
-    var i = 0
-    while(i < bc.length) {
-      if(i == bytecode("iconst")) {
-        stack.push() //need to push the next bytecode, not i+1
-      }
-    }
+
     /**
     for(code <- bc) {
       if (code == bytecode("iconst")) {
@@ -50,7 +45,9 @@ class VirtualMachineImpl extends VirtualMachine with ByteCodeValues{
     * @param bc the vector of bytecodes
     * @return a tuple of a new vector of bytecodes and virtual machine
     */
-  override def executeOne(bc: Vector[ByteCode]): (Vector[ByteCode], VirtualMachine) = ???
+  override def executeOne(bc: Vector[ByteCode]): (Vector[ByteCode], VirtualMachine) = {
+    (bc.tail, bc.head.execute(this))
+  }
 
   /**
     * Pushes an integer value onto the virtual machine stack.
