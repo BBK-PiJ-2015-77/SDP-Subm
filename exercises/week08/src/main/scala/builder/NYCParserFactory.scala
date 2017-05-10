@@ -8,10 +8,10 @@ import abstractfactory.{AbstractParserFactory, XMLParser}
 class NYCParserFactory extends AbstractParserFactory{
 
   override def getParserInstance(parserType: String): XMLParser = parserType match{
-    case "NYCORDER" => new
-    case "NYCERROR" =>
-    case "NYCFEEDBACK" =>
-    case "NYCRESPONSE" =>
+    case "NYCORDER" => new NYCOrderXMLParser
+    case "NYCERROR" => new NYCErrorXMLParser
+    case "NYCFEEDBACK" => new NYCFeedbackXML
+    case "NYCRESPONSE" => new NYCResponseXMLParser
   }
 
 }
