@@ -3,8 +3,8 @@ package abstractfactory
 /**
   * Created by thomasmcgarry on 10/05/2017.
   */
-class NYCOrderXMLParser extends XMLParser{
+class NYCErrorXMLParser extends XMLParser{
   override def parse: String = {
-    "NYC Parsing order XML...\nNYC Order XML Message"
+    "NYC Parsing error XML...\nNYC Error XML Message"
   }
 }
