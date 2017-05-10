@@ -1,0 +1,5 @@
+When is it appropriate to use the Abstract Factory design pattern?
+
+Abstract factory should be used to create families of related objects without specifying the concrete classes
+
+A factory of factories
