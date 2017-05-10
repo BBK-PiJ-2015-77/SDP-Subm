@@ -1,6 +1,4 @@
-package builder
-
-import abstractfactory.{AbstractParserFactory, XMLParser}
+package abstractfactory
 
 /**
   * Created by thomasmcgarry on 10/05/2017.
