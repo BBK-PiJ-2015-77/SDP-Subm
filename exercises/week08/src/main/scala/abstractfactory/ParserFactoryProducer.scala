@@ -1,8 +1,11 @@
 package abstractfactory
 
-object ParserFactoryProducer {
-  def getFactory(s: String) = ???
+import builder.NYCParserFactory
 
-  // TODO
+object ParserFactoryProducer {
+
+  def getFactory(s: String) = s match {
+    case "NYCFactory" => new NYCParserFactory.getParserInstance(...)
+  }
 
 }
