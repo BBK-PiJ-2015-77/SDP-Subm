@@ -1,0 +1,14 @@
+a) Briefly describe the Strategy Design Pattern?
+
+When you have behaviour that you dont want every subclass to inherit. You can change the implementation depending on how you need it.
+
+
+
+b) When is it appropriate to use the Strategy Design Pattern?
+
+e.g. Animal class
+implementations will inherit the animal methods
+not every implementation would need something like 'flying'
+it makes sense to use the strategy pattern to avoid having to eiher put the fly behaviour in Animal
+and subsequently block it out for each implementation that doesnt fly
+Or, create a 'fly' behaviour for each implementation

@@ -1,8 +1,13 @@
 package strategy
 
-// TODO
 
 case class TextEditor(formatter: TextFormatter) {
-  def publishText(s: String) = ???
+
+  //var txtFormatter: TextFormatter = formatter
+
+  def publishText(s: String) = {
+    //val str: String = formatter.format(s)
+    println(formatter.format(s))
+  }
 
 }
