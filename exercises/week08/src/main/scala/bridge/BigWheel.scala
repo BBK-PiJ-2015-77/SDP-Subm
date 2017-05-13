@@ -3,7 +3,8 @@ package bridge
 case class BigWheel(product: Product, s: String) extends Car(product, s) {
 
   override def assemble: Unit = {
-    println("Modifying product " + product.productName + s" according to $s")
+    println("Modifying product " + product.productName + s" according to $s\n" +
+      "Assembling " + product.productName + s" for $s")
   }
 
   override def produceProduct: Unit = {
