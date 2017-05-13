@@ -1,15 +1,11 @@
 package decorator
 
-class Meat(val pizza: Pizza) extends PizzaDecorator(pizza) {
-
-  val price = 14.25
-
-  override def getDesc: String = {
-    super.getDesc + sep +  s"Meat ($price)"
+class Meat(val pizza: Pizza) extends Pizza {
+  def getDesc: String = {
+    return null
   }
 
-  override def getPrice: Double = {
-    super.getPrice + price
+  def getPrice: Double = {
+    return 0
   }
-
 }

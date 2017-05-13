@@ -6906,7 +6906,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1669ms :: artifacts dl 53ms
+[debug] :: resolution report :: resolve 1690ms :: artifacts dl 35ms
 [debug] 	report for default#week07-build;0.1-SNAPSHOT compile produced in /Users/thomasmcgarry/Documents/SDP-Subm/exercises/week07/project/target/resolution-cache/reports/default-week07-build-compile.xml
 [debug] 	report for default#week07-build;0.1-SNAPSHOT runtime produced in /Users/thomasmcgarry/Documents/SDP-Subm/exercises/week07/project/target/resolution-cache/reports/default-week07-build-runtime.xml
 [debug] 	report for default#week07-build;0.1-SNAPSHOT test produced in /Users/thomasmcgarry/Documents/SDP-Subm/exercises/week07/project/target/resolution-cache/reports/default-week07-build-test.xml
@@ -6920,5 +6920,5 @@
 [debug] 	report for default#week07-build;0.1-SNAPSHOT docs produced in /Users/thomasmcgarry/Documents/SDP-Subm/exercises/week07/project/target/resolution-cache/reports/default-week07-build-docs.xml
 [debug] 	report for default#week07-build;0.1-SNAPSHOT pom produced in /Users/thomasmcgarry/Documents/SDP-Subm/exercises/week07/project/target/resolution-cache/reports/default-week07-build-pom.xml
 [debug] 	report for default#week07-build;0.1-SNAPSHOT scala-tool produced in /Users/thomasmcgarry/Documents/SDP-Subm/exercises/week07/project/target/resolution-cache/reports/default-week07-build-scala-tool.xml
-[debug] 	resolve done (1669ms resolve - 53ms download)
+[debug] 	resolve done (1690ms resolve - 35ms download)
 [info] Done updating.

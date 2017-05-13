@@ -4,7 +4,7 @@
 		module="week07-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170305175239"
+		publication="20170513181520"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

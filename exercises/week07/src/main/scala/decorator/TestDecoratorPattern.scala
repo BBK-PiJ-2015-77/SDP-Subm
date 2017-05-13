@@ -19,8 +19,6 @@ object TestDecoratorPattern {
     print(pizza)
     pizza = new Cheese(pizza)
     print(pizza)
-    pizza = new Cheese(pizza)
-    print(pizza)
     pizza = new Ham(pizza)
     print(pizza)
   }

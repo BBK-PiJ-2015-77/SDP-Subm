@@ -1,3 +1,7 @@
 a) What is the Composite Pattern?
+   (From video:)
+   Allows you to treat individual objects and compositions of objects uniformly
+   You can structure data, or represent the inner working of every part of a whole object individually
 b) Under what conditions would you use a Composite Design Pattern?
+   When you want to present part/whole hierarchies
 c) What are the four participants of the Composite Design Pattern?
