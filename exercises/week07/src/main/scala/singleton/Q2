@@ -1,0 +1,3 @@
+a) Why might you decide to lazy-initialise a singleton instance rather than initialise it in its field declaration?
+   Provide code examples of both approaches to illustrate your answer.
+
