@@ -1,0 +1,4 @@
+a) What is the Facade Pattern?
+   A simplified interface - "hides" some of the complexity
+b) When, and why, would you use the Facade Pattern?
+   When you don't want the user/client to see all the mechanisms of the code, to make it simpler
