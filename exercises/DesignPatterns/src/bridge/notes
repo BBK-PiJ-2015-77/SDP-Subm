@@ -1,0 +1,21 @@
+What is the bridge design pattern?
+
+Decouple an abstraction from its implementation so that the two can vary independently
+
+- Poorly explained
+- Everyone seems to explain it differently
+
+"To progressively add functionality while seperating out major differences using abstract classes"
+
+
+When should you use the bridge design pattern?
+
+When you want to be able to change both the abstractions (abstract classes) and concrete classes independently
+
+When you want the first abstract class to define rules (Abstract TV)
+
+The concrete class adds additional rules (Concrete TV)
+
+An abstract class has a reference to the device and it defines abstract methods that will be defined (Abstract Remote)
+
+The Concrete Remote defines the abstract methods required

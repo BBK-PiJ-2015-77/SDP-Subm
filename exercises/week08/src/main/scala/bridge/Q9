@@ -1,0 +1,5 @@
+When should one make use of the Bridge Design Pattern?
+
+From the video:
+
+When you want to be able to change both the abstractions (abstract classes) and concrete classes independently
