@@ -3,21 +3,25 @@ package composite
 // TODO
 case class HtmlParentElement(s: String) extends HtmlTag(s) {
 
-  var startTag: String
-  var endTag: String
-  var childElements: List[HtmlTag] = List.empty
-  var html: String
+  private var startTag: String = ""
+  private var endTag: String = ""
+  private var list: List[HtmlTag] = Nil
 
-  override def setStartTag(tag: String): Unit = {startTag = tag}
 
-  override def setEndTag(tag: String): Unit = {endTag = tag}
+  override def setStartTag(tag: String): Unit = startTag = tag
+
+  override def setEndTag(tag: String): Unit = endTag = tag
+
+  override def addChildTag(htmlTag: HtmlTag) = {list:+=htmlTag}
+
+  override def removeChildTag(htmlTag: HtmlTag) = {list.filter(_ != htmlTag)}
 
   override def generateHtml: Unit = {
-    html = s"$startTag" + s"\n$endTag"
+    println(startTag)
+    for(html <- list){
+      html.generateHtml
+    }
+    println(endTag)
   }
-
-  override def addChildTag(htmlTag: HtmlTag): Unit = {childElements :+= htmlTag}
-
-  override def removeChildTag(htmlTag: HtmlTag): Unit = {childElements = childElements.filter(_ != htmlTag)}
 
 }

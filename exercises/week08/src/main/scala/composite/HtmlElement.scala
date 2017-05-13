@@ -4,16 +4,18 @@ package composite
 
 case class HtmlElement(s: String) extends HtmlTag(s) {
 
-  var startTag: String
-  var endTag: String
-  var bodyTag: String
+  private var startTag: String = ""
+  private var endTag: String = ""
+  private var body: String = ""
 
-  override def setStartTag(tag: String): Unit = {startTag = tag}
+  override def setStartTag(tag: String): Unit = startTag = tag
 
-  override def setEndTag(tag: String): Unit = {endTag = tag}
+  override def setEndTag(tag: String): Unit = endTag = tag
 
-  override def setTagBody(tagBody: String): Unit = {bodyTag = tagBody}
+  override def setTagBody(tagBody: String) = {body = tagBody}
 
-  override def generateHtml: Unit = ???
+  override def generateHtml: Unit = {
+    println(s"$startTag$body$endTag")
+  }
 
 }
