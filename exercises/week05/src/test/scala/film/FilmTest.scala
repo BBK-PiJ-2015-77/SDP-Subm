@@ -78,4 +78,25 @@ class FilmTest extends FunSuite with BeforeAndAfter{
     assert(thomasCrownAffair.isDirectedBy(mcTiernan) === true)
   }
 
+  test("older Method works on Director companion object") {
+    val d1 = Director.apply("Clint", "Eastwood", 1930)
+    val d2 = Director.apply("John", "McTiernan", 1951)
+    val older = Director.older(d1,d2)
+    assert(older.firstName === "Clint")
+  }
+
+  test("highestRating works on Film companion object") {
+    val f1 = Film.apply("Memento", 2000, 8.5, nolan)
+    val f2 = Film.apply("Dark Knight", 2008, 9.0, nolan)
+    val higher = Film.highestRating(f1,f2)
+    assert(higher.name === "Dark Knight")
+  }
+
+  test("oldestDirectorAtTheTime works on Film companion object") {
+    val f1 = Film.apply("Memento", 2000, 8.5, nolan)
+    val f2 = Film.apply("The Outlaw Josey Wales", 1976, 7.9, eastwood)
+    val oldest = Film.oldestDirectorAtTheTime(f1,f2)
+    assert(oldest.name === "Christopher Nolan")
+  }
+
 }
