@@ -96,7 +96,7 @@ class FilmTest extends FunSuite with BeforeAndAfter{
     val f1 = Film.apply("Memento", 2000, 8.5, nolan)
     val f2 = Film.apply("The Outlaw Josey Wales", 1976, 7.9, eastwood)
     val oldest = Film.oldestDirectorAtTheTime(f1,f2)
-    assert(oldest.name === "Christopher Nolan")
+    assert(oldest.name === "Clint Eastwood")
   }
 
 }
