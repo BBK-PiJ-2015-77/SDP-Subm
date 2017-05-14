@@ -5,12 +5,12 @@ package counter
   */
 class Counter(var count: Int) {
 
-  def inc: Counter = {
-    new Counter(count+1)
+  def inc(x: Int = 1): Counter = {
+    new Counter(count+x)
   }
 
-  def dec: Counter = {
-    new Counter(count-1)
+  def dec(x: Int = 1): Counter = {
+    new Counter(count-x)
   }
 
 
