@@ -1,9 +1,25 @@
 package observer
 
 class SMSUsers(s: Subject, msg: String) extends Observer {
-  def update(desc: String) = ???
 
-  def subscribe() = ???
+  var description = ""
 
-  def unSubscribe() = ???
+  def update(desc: String) = {
+    description = desc
+  }
+
+  def subscribe() = {
+    s.subscribeObserver(this)
+    println(s"$msg subscribed")
+  }
+
+  def unSubscribe() = {
+    s.unSubscribeObserver(this)
+    println(s"$msg unsubscribed")
+  }
+
+//  def getName(): String = {
+//    msg
+//  }
+
 }

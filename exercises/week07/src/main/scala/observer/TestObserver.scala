@@ -12,4 +12,5 @@ object TestObserver extends App {
     observer.unSubscribe
     obj.setDesc("It's a goal!!")
     obj.setDesc("Current score 1-0")
+
 }
