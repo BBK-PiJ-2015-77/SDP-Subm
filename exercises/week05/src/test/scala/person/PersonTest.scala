@@ -20,7 +20,6 @@ class PersonTest extends FunSuite with BeforeAndAfter {
   }
 
   test("Whole name argument constructor works"){
-    //val person2 = new Person(name)
     assert(person.firstName === Person(name).firstName)
     assert(person.lastName === Person(name).lastName)
   }
