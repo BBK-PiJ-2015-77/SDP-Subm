@@ -1,11 +1,9 @@
 package decorator
 
 class SimplyNonVegPizza extends Pizza {
-  def getDesc: String = {
-    return null
-  }
 
-  def getPrice: Double = {
-    return 0
-  }
+  def getDesc: String = { s"SimplyNonVegPizza ($getPrice)" }
+
+  def getPrice: Double = { 350.00 }
+
 }
