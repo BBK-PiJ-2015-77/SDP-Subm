@@ -9,9 +9,11 @@ import org.scalatest.{BeforeAndAfter, FunSuite}
 class CounterTest extends FunSuite with BeforeAndAfter{
 
   var counter: Counter = _
+  var adder: Adder = _
 
   before {
     counter = new Counter(0)
+    adder = new Adder(5)
   }
 
   test("counter has been created with value 0") {
@@ -42,8 +44,16 @@ class CounterTest extends FunSuite with BeforeAndAfter{
     assert(counter.inc(10).dec(5).count === 5)
   }
 
+  test("counterCase is initialised to zero") {
+    assert(CounterCase().count === 0)
+  }
+
   test("counterCase increases and decreases") {
-    assert(CounterCase(0).inc(10).dec(5).count === 5)
+    assert(CounterCase().inc(10).dec(5).count === 5)
+  }
+
+  test("adjust method adds") {
+    assert(counter.adjust(adder).count === 5)
   }
 
 }

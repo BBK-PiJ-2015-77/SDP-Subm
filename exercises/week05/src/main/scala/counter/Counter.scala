@@ -13,6 +13,10 @@ class Counter(var count: Int) {
     new Counter(count-x)
   }
 
+  def adjust(adder: Adder): Counter = {
+    new Counter(adder.add(count))
+  }
+
 
 
 }
